@@ -1,9 +1,3 @@
-beautifulsoup4
-boto3
-openpyxl
-pandas
-psycopg2-binary
-pytest
-python-dotenv
-pytest-mock
-requests
+pelican
+markdown
+tzlocal

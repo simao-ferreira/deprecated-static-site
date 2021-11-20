@@ -130,3 +130,7 @@ dmypy.json
 
 # Jetbrains
 .idea
+
+# Custom
+cache/
+static-venv/
