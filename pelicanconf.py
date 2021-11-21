@@ -29,5 +29,14 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+# http://docs.getpelican.com/en/stable/plugins.html#how-to-use-plugins
 
-THEME = 'themes/pelican-alchemy/alchemy'
+# Disable unneeded blog features
+ARCHIVES_SAVE_AS = ""
+AUTHOR_SAVE_AS = ""
+AUTHORS_SAVE_AS = ""
+CATEGORY_SAVE_AS = ""
+CATEGORIES_SAVE_AS = ""
+TAGS_SAVE_AS = ""
+
+THEME = 'theme'
