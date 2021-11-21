@@ -13,9 +13,12 @@ RELATIVE_URLS = False
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
+PROFILE_IMAGE = "avatar.jpg"
+COLOR_THEME = "0f"
+
 DELETE_OUTPUT_DIRECTORY = True
 
-# Following items are often useful when publishing
 
+# Following items are often useful when publishing
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
