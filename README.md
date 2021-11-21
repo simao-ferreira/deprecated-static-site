@@ -7,54 +7,55 @@ Pelican is a python static site generator the uses jinja templating for displayi
 Site is deployed with GitHub actions.
 
 - [how-to](#how-to)
-    - [environment](#environment)
-    - [requirements](#requirements)
-    - [build](#build)
-    - [run](#run)
+    - [setup](#setup)
+    - [build](#build-and-run)
     - [tests](#tests)
     - [configuration](#configuration)
     - [problems](#problems)
 - [technologies](#technologies)
+- [references](#references)
 
 ## how to
 
-### environment
+### setup
+
+Create a new environment
 
 ```shell
-# Create a new environment
-$ python3 -m venv /path/to/new/virtual/environment
+$ python3 -m venv static-venv
+```
 
-# Activate environment
-$ source venv/bin/activate
+Activate environment
 
-# Install dependencies
+```shell
+$ source static-venv/bin/activate
+```
+
+Install pip-tools
+
+```shell
+$ pip install pip-tools
+```
+
+Update requirements.txt
+
+```shell
+$ pip-compile --upgrade requirements.in
+```
+
+Install dependencies
+
+```shell
 $ pip install -r requirements.txt
+```
 
-# Deactivate
+Deactivate
+
+```shell
 $ deactivate
 ```
 
-### requirements
-
-```shell
-# Install pip-tools
-$ pip install pip-tools
-
-# Generate requirements.txt
-$ pip-compile requirements.in
-
-# Update requirements.txt
-$ pip-compile --upgrade
-
-# Update single package
-$ pip-compile --upgrade-package <package-name>
-
-# Update single package to a specific version
-# e.g. --upgrade-package requests==2.0.0
-$ pip-compile --upgrade-package <package-name>==<version>
-```
-
-### build
+### build and run
 
 Build server
 
@@ -67,9 +68,7 @@ Or - without make
 ```shell
 $ cd output
 $ pyhton -m http.server
-```
-
-### run
+``` 
 
 ### tests
 
@@ -87,8 +86,14 @@ $ pytest tests/<test_file_name>.py
 
 ## technologies
 
-|    packages     |
+|    python packages     |
 | :-------------: |
 |pelican|
 |markdown|
 |tzlocal|
+
+## references
+
+1. https://www.fullstackpython.com/pelican.html
+2. https://cloudbytes.dev/snippets/automate-deployment-of-pelican-website-to-github-pages
+3. http://www.pelicanthemes.com/

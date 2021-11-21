@@ -1,3 +1,6 @@
-pelican
+beautifulsoup4
 markdown
+pelican
+pytest
+requests
 tzlocal
