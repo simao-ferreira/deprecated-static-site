@@ -14,7 +14,7 @@ FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 PROFILE_IMAGE = "avatar.jpg"
-COLOR_THEME = "0f"
+COLOR_THEME = "0b"
 
 DELETE_OUTPUT_DIRECTORY = True
 

@@ -22,8 +22,8 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('email', 'simao-ferreira@email.com'),
+          ('github', 'https://github.com/simao-ferreira'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -35,5 +35,7 @@ DEFAULT_PAGINATION = 10
 ARCHIVES_SAVE_AS = ""
 AUTHOR_SAVE_AS = ""
 AUTHORS_SAVE_AS = ""
+CATEGORY_SAVE_AS = ""
+CATEGORIES_SAVE_AS = ""
 
 THEME = 'theme'
