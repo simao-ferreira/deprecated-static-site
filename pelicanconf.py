@@ -1,6 +1,7 @@
 AUTHOR = 'Simao Ferreira'
 SITENAME = 'The absolutely obsolete dev'
 SITEURL = 'https://simao-ferreira.github.io'
+BIO = 'Lubarsky’s Law of Cybernetic Entomology: There’s always one more bug'
 
 PATH = 'content'
 
@@ -38,4 +39,8 @@ AUTHORS_SAVE_AS = ""
 CATEGORY_SAVE_AS = ""
 CATEGORIES_SAVE_AS = ""
 
+FOOTER_TEXT = 'Made with clumsiness'
+
 THEME = 'theme'
+
+FONT_ACADEMICONS = True
