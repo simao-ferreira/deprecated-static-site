@@ -18,3 +18,5 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           GH_PAGES_CNAME: ${{secrets.DOMAIN_CNAME}}
           PYTHON_VERSION: 3.11
+      - name: NoJekill
+        run: touch ./content/.nojekyll
