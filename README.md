@@ -77,7 +77,8 @@ $ pyhton -m http.server
 $ pytest
 
 # Run class test
-$ pytest tests/<test_file_name>.py
+$ pytest tests/ <test_file_name >.py
+
 ```
 
 ### configuration

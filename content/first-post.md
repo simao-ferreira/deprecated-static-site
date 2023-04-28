@@ -9,8 +9,8 @@ Summary: Hi, I am writing a blog
 
 Has been a while - queue the song by Staind
 
-Writing is a brilliant way to express ideas and help process thoughts, years back blogger and wordpress were all the
+Writing is a brilliant way to express ideas and help process thoughts, years back blogger and WordPress were all the
 rage and everyone and there cat had one.
 
-In my line of work is also common that developers write about the experiences and chalanges they face day to day, in
+In my line of work is also common that developers write about the experiences and challenges they face day to day, in
 hopes of helping others, networking or other reasons. So I thought to myself, why not, let's give it a try.

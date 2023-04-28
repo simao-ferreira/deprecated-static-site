@@ -49,9 +49,9 @@ Explanation:
 
 Filename could be the same, but in that case the output must be another directory.
 
-By default pbkdf2 iterations are 10k, it's possible to change this by using the flag `-iter`, caution though it's also necessary to use the same flag in the decryption process.
+By default, pbkdf2 iterations are 10k, it's possible to change this by using the flag `-iter`, caution though it's also necessary to use the same flag in the decryption process.
 
-Additionally it's possible to pass the password as argument in plain text using the flag `-pass`, with the following format `-pass 'pass:some-password-here`.
+Additionally, it's possible to pass the password as argument in plain text using the flag `-pass`, with the following format `-pass 'pass:some-password-here`.
 
 ### Decrypt archive.txt.enc
 

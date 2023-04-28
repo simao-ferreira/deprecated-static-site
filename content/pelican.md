@@ -7,8 +7,8 @@ Summary: Starting on Pelican
 
 ## Pelican
 
-I was looking to create a static site for my github profile for a while, I gave my try to the
-famous [Jekyll](https://jekyllrb.com/) that github recommends and supports, it was not hard to set up, if used with a
+I was looking to create a static site for my GitHub profile for a while, I gave my try to the
+famous [Jekyll](https://jekyllrb.com/) that GitHub recommends and supports, it was not hard to set up, if used with a
 theme getting a beautiful looking site is pretty straight forward.
 
 Jekyll runs on ruby, I have no prior experience running stuff on ruby, it was not difficult to make it run, but a little
